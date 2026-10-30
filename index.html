@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Informações sobre os encontros do Pequeno Grupo Timóteo, em Anápolis.">
+  <meta name="theme-color" content="#0c2e42">
+  <title>Pequeno Grupo Timóteo | Encontros</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="institutional.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="header">
+    <div class="container nav">
+      <a class="logo" href="#inicio" aria-label="Pequeno Grupo Timóteo - página inicial"><span aria-hidden="true">✦</span> PG <span>Timóteo</span></a>
+      <nav aria-label="Menu principal">
+        <a href="#programacao">Programação</a><a href="#eventos">Eventos</a><a href="#comunidade">Comunidade</a><a href="#avaliacao">Avaliação</a>
+      </nav>
+    </div>
+  </header>
+  <main id="conteudo">
+    <section id="inicio" class="hero" aria-labelledby="titulo-principal">
+      <div class="container hero-content">
+        <p class="eyebrow">COMUNIDADE • FÉ • CONEXÃO</p>
+        <h1 id="titulo-principal">Pequeno Grupo Timóteo</h1>
+        <p>Um espaço simples para acompanhar os encontros e compartilhar informações com a nossa comunidade.</p>
+        <div class="hero-actions"><a class="btn primary" href="#eventos">Conhecer os eventos <span aria-hidden="true">→</span></a><a class="btn secondary" href="#comunidade">Conhecer a comunidade</a></div>
+      </div>
+    </section>
+    <section id="programacao" class="section container" aria-labelledby="titulo-programacao">
+      <div class="section-heading"><p class="eyebrow dark">NOSSA ROTINA</p><h2 id="titulo-programacao">Programação semanal</h2><p>Os encontros acontecem semanalmente. Confirme eventuais alterações com o responsável pelo grupo.</p></div>
+      <div class="cards schedule-grid">
+        <article class="card"><div class="card-icon" aria-hidden="true">✧</div><p class="tag">TERÇA-FEIRA</p><h3>Encontro semanal</h3><p>Momento de estudo, conversa e fortalecimento dos vínculos da comunidade.</p><strong>20h00</strong></article>
+        <article class="card"><div class="card-icon" aria-hidden="true">♡</div><p class="tag">LOCAL</p><h3>Parque dos Pirineus</h3><p>O endereço residencial completo é compartilhado de forma privada com participantes confirmados.</p><strong>Anápolis - GO</strong></article>
+        <article class="card"><div class="card-icon" aria-hidden="true">☀</div><p class="tag">PARTICIPAÇÃO</p><h3>Confirme antes de ir</h3><p>Fale diretamente com o responsável pelo grupo para confirmar o encontro e receber as orientações de chegada.</p><strong>Informações compartilhadas de forma privada</strong></article>
+      </div>
+    </section>
+    <section id="eventos" class="section alt" aria-labelledby="titulo-eventos">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow dark">PARTICIPE</p><h2 id="titulo-eventos">Próximos encontros</h2><p>Confira a programação recorrente do Pequeno Grupo Timóteo.</p></div>
+        <p id="event-status" class="status-message" role="status">Carregando eventos…</p><div id="event-list" class="cards event-grid" aria-live="polite"></div>
+      </div>
+    </section>
+    <section id="comunidade" class="section container" aria-labelledby="titulo-comunidade">
+      <div class="about-grid">
+        <div><p class="eyebrow dark">SOBRE A COMUNIDADE</p><h2 id="titulo-comunidade">Uma comunidade próxima e acolhedora</h2><p>O Pequeno Grupo Timóteo se reúne semanalmente em uma residência para compartilhar aprendizado, diálogo e comunhão.</p><p class="pending-note"><strong>Privacidade:</strong> por se tratar de uma residência, o endereço completo não é publicado. Ele será enviado de forma privada aos participantes confirmados.</p></div>
+        <address class="contact-card"><h3>Informações do encontro</h3><dl><div><dt>Dia</dt><dd>Terças-feiras</dd></div><div><dt>Horário</dt><dd>20h00</dd></div><div><dt>Região</dt><dd>Parque dos Pirineus, Anápolis - GO</dd></div><div><dt>Contato e endereço</dt><dd>Compartilhados de forma privada pelo responsável</dd></div></dl><p>Confirme o encontro e solicite as orientações diretamente ao responsável pelo grupo.</p></address>
+      </div>
+    </section>
+    <section id="avaliacao" class="section alt" aria-labelledby="titulo-avaliacao">
+      <div class="container feedback">
+        <div><p class="eyebrow dark">SUA OPINIÃO IMPORTA</p><h2 id="titulo-avaliacao">Ajude a melhorar o projeto</h2><p>Após experimentar o site, conte se ele facilitou o acesso às informações. A resposta é voluntária e não solicita nome, e-mail ou telefone.</p><p>A mensagem será preparada no WhatsApp. Você poderá revisar o conteúdo e escolher o destinatário antes de enviá-la.</p></div>
+        <form id="feedback-form" novalidate>
+          <label for="facilidade">Foi fácil navegar pelo site?</label><select id="facilidade" name="facilidade" required aria-describedby="feedback-error"><option value="">Selecione uma opção</option><option>Sim</option><option>Parcialmente</option><option>Não</option></select>
+          <label for="clareza">As informações estavam claras?</label><select id="clareza" name="clareza" required aria-describedby="feedback-error"><option value="">Selecione uma opção</option><option>Sim</option><option>Parcialmente</option><option>Não</option></select>
+          <label for="utilidade">O site foi útil para encontrar atividades?</label><select id="utilidade" name="utilidade" required aria-describedby="feedback-error"><option value="">Selecione uma opção</option><option>Sim</option><option>Parcialmente</option><option>Não</option></select>
+          <label for="comentario">O que podemos melhorar? <span class="optional">(opcional)</span></label><textarea id="comentario" name="comentario" rows="4" maxlength="500" placeholder="Digite uma sugestão, sem informar dados pessoais"></textarea>
+          <p id="feedback-error" class="error-message" role="alert"></p><button type="submit" class="btn primary">Preparar avaliação no WhatsApp</button><p class="form-note" id="feedback-status" role="status">Nenhuma resposta é armazenada neste site.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer><div class="container footer-content"><div><strong><span aria-hidden="true">✦</span> Pequeno Grupo Timóteo</strong><p>Projeto acadêmico de extensão universitária.</p></div><p>O endereço residencial completo não é divulgado publicamente.</p></div></footer>
+  <noscript><p class="noscript">Ative o JavaScript para visualizar os eventos e preparar a avaliação.</p></noscript>
+  <script src="script.js" defer></script>
+</body>
+</html>

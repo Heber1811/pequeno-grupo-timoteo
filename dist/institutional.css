@@ -1,0 +1,31 @@
+.outline {
+  color: var(--navy);
+  border-color: var(--teal);
+  background: #fff;
+}
+
+.outline:hover {
+  color: #fff;
+  background: var(--teal);
+}
+
+.contact-card a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.contact-card .contact-button {
+  width: 100%;
+  margin-top: 1rem;
+  color: #062e32;
+  background: var(--mint);
+  text-decoration: none;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
