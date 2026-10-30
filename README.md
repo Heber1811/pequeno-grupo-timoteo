@@ -6,7 +6,7 @@ Site estático, responsivo e acessível para divulgar os encontros do Pequeno Gr
 
 ## Site publicado
 
-https://pequeno-grupo-timoteo.jauntyjelly36.chatgpt.site
+https://heber1811.github.io/pequeno-grupo-timoteo/
 
 ## Código-fonte
 
