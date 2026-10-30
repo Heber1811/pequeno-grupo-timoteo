@@ -3,7 +3,7 @@
 - [x] Autorização do responsável pela residência para publicação do site.
 - [ ] Ciência dos participantes e consentimento para eventuais registros.
 - [x] Link público do site funcionando: https://pequeno-grupo-timoteo.jauntyjelly36.chatgpt.site
-- [ ] Link do repositório com código-fonte.
+- [x] Link do repositório com código-fonte: https://github.com/Heber1811/pequeno-grupo-timoteo
 - [ ] Capturas das principais funcionalidades.
 - [ ] Vídeo autoral com até cinco minutos.
 - [ ] Evidência de aplicação na comunidade externa.

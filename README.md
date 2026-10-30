@@ -8,6 +8,10 @@ Site estático, responsivo e acessível para divulgar os encontros do Pequeno Gr
 
 https://pequeno-grupo-timoteo.jauntyjelly36.chatgpt.site
 
+## Código-fonte
+
+https://github.com/Heber1811/pequeno-grupo-timoteo
+
 ## Executar localmente
 
 O carregamento do JSON exige um servidor HTTP:
