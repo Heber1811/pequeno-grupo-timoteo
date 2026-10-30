@@ -1,8 +1,12 @@
-# Conecta Igreja
+# Pequeno Grupo Timóteo
 
 Site estático, responsivo e acessível para divulgar os encontros do Pequeno Grupo Timóteo, no Parque dos Pirineus, em Anápolis. Projeto desenvolvido como apoio à Atividade Extensionista II da UNINTER.
 
 > Por segurança e privacidade, o endereço residencial completo e o contato pessoal do responsável não são publicados. Eles devem ser compartilhados somente com participantes confirmados.
+
+## Site publicado
+
+https://pequeno-grupo-timoteo.jauntyjelly36.chatgpt.site
 
 ## Executar localmente
 
